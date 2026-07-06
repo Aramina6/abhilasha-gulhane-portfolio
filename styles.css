@@ -214,6 +214,22 @@ img {
   color: var(--muted);
 }
 
+.experience-head {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.experience-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+
 /* About grid */
 .about-grid {
   display: grid;
@@ -485,6 +501,80 @@ img {
 .contact-card p {
   color: var(--muted);
   font-size: 0.88rem;
+}
+
+/* Reading */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.book-card {
+  display: flex;
+  gap: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.book-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.book-cover {
+  width: 72px;
+  height: 108px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+
+.book-body {
+  min-width: 0;
+}
+
+.book-rating {
+  color: #fbbf24;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+}
+
+.book-read {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.book-body h3 {
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin-bottom: 0.35rem;
+}
+
+.book-author {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-review {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 footer {
