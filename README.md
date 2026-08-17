@@ -5,7 +5,7 @@ Static personal website hosted on GitHub Pages.
 ## Sections
 
 - **About** — Bio, education, skills, certifications
-- **Experience** — STAR-format roles with Team, Product, Role, Projects, Technical Stack
+- **Experience** — Role summaries with Team, Product, Role, Projects, Technical Stack
 - **Articles** — Medium article previews
 - **Projects** — GitHub repositories
 - **Contact** — LinkedIn, Medium, X, GitHub, email
